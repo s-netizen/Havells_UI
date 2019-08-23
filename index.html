@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <title>TRADING IN DERIVATIVES</title>
+
+    <style>
+        
+
+        
+
+    </style>
+
+</head>
+
+<body>
+    <form>
+        <h3 class="heading" align="center"><b>FORM C</b></h3>
+        <hr>
+        <div class="box form-group">
+            <h5 class="heading">BUYER'S INFORMATION</h5>
+            <div class="row">
+                <div class="col">
+                    <label for="no">FIRST NAME <span class="red-color">*</span></label>
+                    <input required type="text" class="form-control" placeholder="ENTER FIRST NAME">
+                </div>
+                <div class="col">
+                    <label for="no">LAST NAME<span class="red-color">*</span></label>
+                    <input required type="text" class="form-control" placeholder="ENTER LAST NAME">
+                </div>
+                <div class="col">
+                    <label for="typeofsecurity">PAN NUMBER<span class="red-color">*</span></label>
+                    <input required type="text" class="form-control" placeholder="ENTER PAN NUMBER">
+            </div>
+        </div>
+        <BR>
+            <div class="row">
+                <div class="col">
+                <label for="address1">ADDRESS</label>  
+                <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="ENTER YOUR ADDRESS"></textarea>
+                </div>
+            
+            <div class="col">
+                <label for="contact">CONTACT NUMBER</label>
+                <input required type="text" class="form-control" placeholder="ENTER YOUR CONTACT NUMBER">
+            </div>
+            </div>
+        </div>
+        <hr>
+        <div class="box form-group">
+        	<div class="row">
+                <div class="col">
+                <h5 class="heading">CATEGORY OF PERSON</h5>
+                <label for="relationfromsap">REALTION FROM SAP</label>
+                <select class="form-control">
+                <option>CHOOSE TYPE</option>
+                <option>PROMOTERS</option>
+                <option>KMP</option>
+                <option>DIRECTORS</option>
+                </select>
+            </div>
+                <div class="col">
+            <h5 class="heading">SECURITY HELD PRIOR TO ACQUISITION / DISPOSAL</h5>
+            <div class="form-group">
+                <label for="typeofsecurity">TYPE OF SECURITY</label>
+                <select class="form-control">
+                    <option>CHOOSE TYPE</option>
+                    <option>SHARES</option>
+                    <option>WARRENT</option>
+                    <option>CONVERTIBLE DEBENTURES</option>
+                </select>
+            </div>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col">
+                    <label for="no">SHARE HOLDING NO.</label>
+                    <input required type="number" class="form-control" placeholder="ENTER NO.">
+                </div>
+                <div class="col">
+                    <label for="percentile">SHARE HOLDING PERCENTILE</label>
+                    <input required type="text" class="form-control" placeholder="ENTER %">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="box form-group">
+            <h5 class="heading">SECURITY ACQUIRED / DISPOSED</h5>
+            <div class="row">
+                <div class="col">
+                    <label for="no">NO.</label>
+                    <input required type="text" class="form-control" placeholder="ENTER NO.">
+                </div>
+                <div class="col">
+                    <label for="value">VALUE</label>
+                    <input required type="text" class="form-control" placeholder="ENTER VALUE">
+                </div>
+                <div class="col">
+                    <label for="typeofsecurity">TRANSACTION TYPE</label>
+                    <select class="form-control">
+                        <option>CHOOSE TYPE</option>
+                        <option>BUY</option>
+                        <option>SALE</option>
+                        <option>PLEDGE</option>
+                        <option>INVOKE</option>
+                        <option>REVOKE</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="box form-group">
+            <h5 class="heading">SECURITY HELD POST TO ACQUISITION / DISPOSAL</h5>
+            <div class="row">
+                <div class="col"></div>
+                
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="form-group col">
+                    <label for="typeofsecurity">TYPE OF SECURITY</label>
+                    <select class="form-control">
+                        <option>CHOOSE TYPE</option>
+                        <option>SHARES</option>
+                        <option>WARRENT</option>
+                        <option>CONVERTIBLE DEBENTURES</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label for="no">NO.</label>
+                    <input required type="text" class="form-control" placeholder="ENTER NO.">
+                </div>
+                <div class="col">
+                    <label for="percentile">PERCENTILE</label>
+                    <input required type="text" class="form-control" placeholder="ENTER %">
+                </div>
+            </div>
+        </div>
+        
+        <div class="box form-group">
+
+            <div class="row">
+                <div class="col">
+                    <h5 class="heading1">DATE OF ALLOTMENT</h5>
+                    <label for="from">FROM</label>
+                    <input required type="date" class="form-control">
+                </div>
+                <div class="col">
+                    <h5 style="visibility: hidden">DATE OF ALLOTMENT</h5>
+                    <label for="to">TO</label>
+                    <input required type="date" class="form-control">
+                </div>
+            <div class="col">
+            <h5 class="heading">DATE OF INTIMATION TO COMPANY</h5>
+            <div class="form-group">
+                <label for="declaration">DECLARATION OF DATE</label>
+                <input required type="date" class="form-control">
+            </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+        <div class="box form-group">
+            <h5 class="heading">MODE OF ACQUISTION</h5>
+
+            <div id="mode" class="form-row">
+                <div class="col">
+                    <input required type=Radio name="4" value="ON MARKET" id="ON_MARKET">
+					<label for="ON_MARKET">ON MARKET</label>
+                </div>
+                <div class="col">
+                    <input required type=Radio name="4" value="PUBLIC RIGHTS" id="PUBLIC_RIGHTS">
+					<label for="PUBLIC_RIGHTS">PUBLIC RIGHTS</label>
+                </div>
+                <div class="col">
+                    <input required type=Radio name="4" value="PREFERENTIAL OFFER" id="PREFERENTIAL_OFFER">
+					<label for="PREFERENTIAL_OFFER">PREFERENTIAL OFFER</label>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="form-group">
+        	<center>
+            <input required style="width:10%;" type="submit" value="SUBMIT" class="btn btn-lg btn-danger">
+            </center>
+        </div>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
